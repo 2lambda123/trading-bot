@@ -2,7 +2,7 @@ repo_name: 2lambda123/trading-bot
 report_id: 48d44b5650bc957220ee40ee823593dc
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T07:56:22+00:00'
+timestamp: '2024-02-29T19:19:47+00:00'
 requested_by: pskrunner14
 provider: github
 branch: master
@@ -137,6 +137,12 @@ tools:
   last_updated_by: Prabhsimran Singh
   last_updated_on: 2020-01-04 11:33:02.000000000 Z
   vulnerabilities:
+  - name: JupyterLab vulnerable to potential authentication and CSRF tokens leak
+    cve_id: CVE-2024-22421
+    cve_url: https://github.com/advisories/GHSA-44cc-43rp-5947
+    detected_date: Jan 20
+    severity: high
+    first_patched: 3.6.7
   - name: 'JupyterLab: XSS due to lack of sanitization of the action attribute of
       an html <form>'
     cve_id: CVE-2021-32797
